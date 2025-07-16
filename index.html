@@ -1,197 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treact</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://kit.fontawesome.com/0da4b0e651.js" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0da4b0e651.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
 
-<body>
-  <section id="landing">
-    <nav>
-     <div class="nav__container">
-      <div class="row nav__row">
-      <div class="nav__logo--wrapper">
-        <img class="nav__logo" src="./assets-Mod 2 Final Project/assets/logo use.svg" alt="">
-        <div class="nav__title">Treact</div>
-       </div>
-        <ul class="nav__links">
-          <li><a href="#" class="nav__link">About</a></li>
-          <li><a href="#" class="nav__link">Blog</a></li>
-          <li><a href="#" class="nav__link">Pricing</a></li>
-          <li><a href="#" class="nav__link">Contact Us</a></li>
-          <li><a href="#" class="nav__link">Login</a></li>
-          <li><a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
-        
-        </ul>
-     
-     
-     <button class="btn__menu" onclick="openMenu()">
-      <i class="fas fa-bars"></i>
-     </button>
-     <div class="menu__backdrop">
-      <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-         <i class="fas fa-times"></i>
-      </button>
-      <ul class="menu__links">
-        <li class="menu__list"><a href="#" class="menu__link no-cursor">About</a>
-        </li>
-        <li class="menu__list"><a href="#" class="menu__link no-cursor">Blog</a>
-        </li>
-        <li class="menu__list"><a href="#" class="menu__link no-cursor">Pricing</a>
-        </li>
-        <li class="menu__list"><a href="#" class="menu__link no-cursor">Contact Us</a>
-        </li>
-        <li class="menu__list"><a href="#" class="menu__link no-cursor">Log In</a>
-        </li>
-        <li class="menu__list"><a href="#" class="menu__link menu__link--primary no-cursor">Sign Up</a>
-        </li>
-      </ul>
-     </div>
-      </div>
-     </div>
-    </nav>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <div class="row nav__row">
+            <div class="nav__logo--wrapper">
+              <img
+                class="nav__logo"
+                src="./assets-Mod 2 Final Project/assets/logo use.svg"
+                alt=""
+              />
+              <div class="nav__title">Treact</div>
+            </div>
+            <ul class="nav__links">
+              <li><a href="#" class="nav__link">About</a></li>
+              <li><a href="#" class="nav__link">Blog</a></li>
+              <li><a href="#" class="nav__link">Pricing</a></li>
+              <li><a href="#" class="nav__link">Contact Us</a></li>
+              <li><a href="#" class="nav__link">Login</a></li>
+              <li>
+                <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+              </li>
+            </ul>
 
-    <header>
-      <div class="header__container">
-        <div class="row header__row">
-          <div class="header__description">
-            <h1>
-              Beautiful React Templates <span class="purple">for you.</span>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="#" class="menu__link no-cursor">About</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link no-cursor">Blog</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link no-cursor">Pricing</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link no-cursor">Contact Us</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link no-cursor">Log In</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#" class="menu__link menu__link--primary no-cursor"
+                    >Sign Up</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <div class="header__container">
+          <div class="row header__row">
+            <div class="header__description">
+              <h1>
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="header__description--para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+
+              <div class="header__email">
+                <input
+                  type="text"
+                  class="header__email--input"
+                  placeholder="Your E-mail Address"
+                />
+                <button class="header__email--btn">Get Started</button>
+              </div>
+              <div class="header__subtitle--wrapper">
+                <p class="header__subtitle">OUR TRUSTED CUSTOMERS</p>
+                <figure>
+                  <img
+                    class="customers__logo"
+                    src="./assets-Mod 2 Final Project/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                    alt=""
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <figure class="header__img--wrapper">
+              <img
+                class="header__img"
+                src="./assets-Mod 2 Final Project/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="features__header">
+            <h4 class="section__tag">
+              <span class="purple">FEATURES</span>
+            </h4>
+            <h1 class="section__title">
+              We have Amazing <span class="purple">Service.</span>
             </h1>
-            <p class="header__description--para">
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
+            <p class="section__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          
-          <div class="header__email">
-            <input type="text" class="header__email--input" placeholder="Your E-mail Address">
-            <button class="header__email--btn">Get Started</button>
           </div>
-          <div class="header__subtitle--wrapper">
-          <p class="header__subtitle">OUR TRUSTED CUSTOMERS</p>
-          <figure>
-            <img class="customers__logo" src="./assets-Mod 2 Final Project/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
-          </figure>
-          </div>
-          </div>
-    
-          <figure class="header__img--wrapper">
-            <img class="header__img" src="./assets-Mod 2 Final Project/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
-          </figure>
-        
-      
-      </div>
-      </div>
-    </header>
-  </section>
+          <div class="features__wrapper">
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                  alt=""
+                />
+              </figure>
+              <div class="service__description">
+                <h2 class="service__title">Secure</h2>
+                <p class="service__para">
+                  We strictly only deal with vendors that provide top notch
+                  security.
+                </p>
+              </div>
+            </div>
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                  alt=""
+                />
+              </figure>
+              <div class="service__description">
+                <h2 class="service__title">24/7 Support</h2>
+                <p class="service__para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
+            </div>
 
-  <section id="features">
-    <div class="container">
-      <div class="row">
-        <div class="features__header">
-        <h4 class="section__tag">
-          <span class="purple">FEATURES</span>
-        </h4>
-        <h1 class="section__title">
-          We have Amazing <span class="purple">Service.</span>
-        </h1>
-        <p class="section__para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        </div>
-        <div class="features__wrapper">
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                  alt=""
+                />
+              </figure>
               <div class="service__description">
-              <h2 class="service__title">
-                Secure
-              </h2>
-              <p class="service__para">
-                We strictly only deal with vendors that provide top notch security.
-              </p>
+                <h2 class="service__title">Customizable</h2>
+                <p class="service__para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
-              <div class="service__description">
-              <h2 class="service__title">
-                24/7 Support
-              </h2>
-              <p class="service__para">
-                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-          </div>
-          
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
-              <div class="service__description">
-              <h2 class="service__title">
-               Customizable
-              </h2>
-              <p class="service__para">
-                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-          </div>
-          
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
-              <div class="service__description">
-              <h2 class="service__title">
-                Reliable
-              </h2>
-              <p class="service__para">
-                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-          </div>
-          
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
-              <div class="service__description">
-              <h2 class="service__title">
-                Fast
-              </h2>
-              <p class="service__para">
-                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-          </div>
-          
-          <div class="service">
-            <figure class="service__img--wrapper">
-              <img class="service__img" src="./assets-Mod 2 Final Project/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
-            </figure>
-              <div class="service__description">
-              <h2 class="service__title">
-                Easy
-              </h2>
-              <p class="service__para">
-                Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.
-              </p>
-            </div>
-          </div>
-          
-          
-        </div>
 
-        </ul>
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                  alt=""
+                />
+              </figure>
+              <div class="service__description">
+                <h2 class="service__title">Reliable</h2>
+                <p class="service__para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
+            </div>
+
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                  alt=""
+                />
+              </figure>
+              <div class="service__description">
+                <h2 class="service__title">Fast</h2>
+                <p class="service__para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
+            </div>
+
+            <div class="service">
+              <figure class="service__img--wrapper">
+                <img
+                  class="service__img"
+                  src="./assets-Mod 2 Final Project/assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                  alt=""
+                />
+              </figure>
+              <div class="service__description">
+                <h2 class="service__title">Easy</h2>
+                <p class="service__para">
+                  Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                  quis nostrud.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+
+    <section id="quality">
+      <div class="container">
+        <div class="row row__quality">
+          <div class="quality__work--header">
+            <h4 class="section__tag">
+              <span class="purple">QUALITY WORK</span>
+            </h4>
+            <h1 class="section__title">
+              Designed & Developed by <span class="purple">Professionals.</span>
+            </h1>
+            <p class="section__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="btn">Learn More</button>
+          </div>
+          <figure class="quality__img--wrapper">
+            <img
+              class="quality__img"
+              src="./assets-Mod 2 Final Project/assets/hero-screenshot-1.40a097b525c2f8c9808e.png"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="steps">
+      <div class="container">
+        <div class="row row__steps">
+          <figure class="steps__img--wrapper">
+            <img
+              class="steps--img"
+              src="./assets-Mod 2 Final Project/assets/hero-screenshot-2.241aac1fbc66db29d873.png"
+              alt=""
+            />
+          </figure>
+          <div class="steps__description">
+            <h4 class="section__tag">STEPS</h4>
+            <h1 class="section__title">
+              Easy to <span class="purple">Get Started.</span>
+            </h1>
+            <div class="steps__wrapper">
+              <div class="step">
+                <div class="step__number">01</div>
+                <div class="step__description">
+                  <div class="step__title">Register</div>
+                  <div class="step__para">
+                    Create an account with us using Google or Facebook.
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__number">02</div>
+                <div class="step__description">
+                  <div class="step__title">
+                    Download
+                  </div>
+                  <div class="step__para">
+                    Browse and Download the template that you like from the marketplace.
+                  </div>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step__number">03</div>
+                <div class="step__description">
+                  <div class="step__title">
+                    Run
+                  </div>
+                  <div class="step__para">
+                    Follow the instruciton to setup and customize the template to your needs.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="values">
+      <div class="container">
+        <div class="row row__values">
+          <div class="values__description">
+          <h4 class="section__tag">
+            <span>VALUES</span>
+          </h4>
+          <h1 class="section__title">
+            We Always Abide by Our <span class="purple">Principles.</span>
+          </h1>
+          <p class="section__para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="values__list">
+            <div class="value">
+              <div class="value__description">
+                <figure>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(39, 103, 73, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg>
+                                       
+                                      </figure>
+                <div class="value__title">
+                  Affordable
+                </div>
+                <div class="value__para">
+                  We promise to offer you the best rate we can - at par with the industry standard.
+                </div>
+
+              </div>
+            </div>
+            <div class="value">
+              <div class="value__description">
+                <figure>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(155, 44, 44, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                        </svg>
+                </figure>
+                <div class="value__title">
+                 Professionalism
+                </div>
+                <div class="value__para">
+                  We assure you that our templates are designed and created by professional designers.
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="btn">Learn More</button>
+          </div>
+          <figure class="values__img--wrapper">
+            <img class="values__img" src="./assets-Mod 2 Final Project/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+          </figure>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
