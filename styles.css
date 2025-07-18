@@ -509,16 +509,94 @@ VALUES
 
 .row__values {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .values__description {
     display: flex;
     flex-direction: column;
-  align-items: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.values__img--wrapper {
+    width: 50%;
 }
 
 .values__list {
     display: flex;
+}
+
+.value__header {
+    display: flex;
+    align-items: center;
+}
+
+#values .section__title {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    line-height: 1.25;
+}
+
+.value {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.affordable__img--wrapper {
+    background-color: #9ae6b4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+}
+
+.value__title {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+}
+
+.professionalism__img--wrapper {
+    background-color: #feb2b2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+}
+
+.value__img {
+    width: 20px;
+    height: 20px;;
+}
+
+#values .btn {
+    margin-top: 48px;
+}
+
+
+/*
+
+PRICING
+
+*/
+
+.prices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
