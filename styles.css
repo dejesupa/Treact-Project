@@ -1228,6 +1228,7 @@ LARGE DESKTOPS
 */
 
 @media (max-width: 1024px) {
+    
     .nav__links {
         display: none;
     }
@@ -1310,10 +1311,31 @@ LARGE DESKTOPS
         padding: 0 24px;
     }
 
-    #quality .row {
+    .row__quality {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .quality__work--header {
+        padding-top: 32px;
+        padding-right: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__title {
+        text-align: center;
+    }
+
+    .section__para {
+        text-align: center;
+    }
+
+.section__tag {
+    text-align: center;
+}
 
    .service {
     width: 50%;
@@ -1322,14 +1344,34 @@ LARGE DESKTOPS
     .row__steps {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
+
+    .steps__description {
+        width: 100%;
+          }
+
+        .steps__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+  
 
     .row__values {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
+
+    .values__description {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        }
 
     .values__list {
         display: flex;
@@ -1338,10 +1380,47 @@ LARGE DESKTOPS
         text-align: center;
     }
 
+    .value__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .value__para--wrapper {
+        padding: 0 32px;
+    }
+
     .quality__work--header,
     .steps__description,
     .values__description {
         margin-top: 40px;
+    }
+
+    .row__testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial__description--wrapper {
+        padding-top: 32px;
+    }
+
+    .testimonial__img {
+        width: 75%;
+        padding-bottom: 12px;
+    }
+
+    .rating {
+        text-align: center;
+    }
+
+    .experience__title {
+        text-align: center;
+    }
+
+    .experience__para {
+        text-align: center;
     }
 
     .prices {
@@ -1358,6 +1437,55 @@ LARGE DESKTOPS
     .testimonial__description--wrapper {
         margin-right: 40px;
     }
+
+    .start__container {
+        padding: 80px 0;
+    }
+
+    .row__start {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .start__description {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .start__buttons {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+
+    .start__button:nth-child(1) {
+        margin-right: 0;
+                padding: 12px 24px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .start__button:nth-child(2) {
+        margin-top: 16px;
+        padding: 12px 24px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+ .footer__bottom {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .footer__copyright {
+    padding-top: 16px;
+ }
+
+ .footer__socials {
+    padding-top: 16px;
+ }
+
+
 }
 
 
