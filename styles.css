@@ -421,15 +421,6 @@ FEATURES
     font-weight: 500;
 }
 
-.features__blob {
-    transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 16rem;
-    opacity: 0.25;
-    padding: 16px;
-}
 
 /* 
 
